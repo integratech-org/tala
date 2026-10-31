@@ -2,29 +2,31 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![project_license][license-shield]][license-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/anthonyA1214/traffic-flow-simulator">
+  <a href="https://github.com/integratech-org/traffic-flow-simulator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> <h3 align="center">TALA - Traffic Analysis and Light Allocation</h3>
 
   <p align="center">
     A cellular-automaton traffic simulator (Nagel-Schreckenberg model) driven by real intersection geometry, built for signal-timing optimization experiments.
     <br />
-    <a href="https://github.com/anthonyA1214/traffic-flow-simulator"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/integratech-org/traffic-flow-simulator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- <a href="https://github.com/github_username/repo_name">View Demo</a> -->
     &middot;
-    <a href="https://github.com/anthonyA1214/traffic-flow-simulator/issues/new?template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/integratech-org/traffic-flow-simulator/issues/new?template=bug_report.yml">Report Bug</a>
     &middot;
-    <a href="https://github.com/anthonyA1214/traffic-flow-simulator/issues/new?template=feature_request.yml">Request Feature</a>
+    <a href="https://github.com/integratech-org/traffic-flow-simulator/issues/new?template=feature_request.yml">Request Feature</a>
   </p>
 </div>
 
@@ -48,8 +50,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -97,7 +97,7 @@ curl -fsSL https://bun.sh/install | bash
 
 1. Clone the repo
 ```sh
-   git clone https://github.com/anthonyA1214/traffic-flow-simulator.git
+   git clone https://github.com/integratech-org/traffic-flow-simulator.git
    cd traffic-flow-simulator
 ```
 2. Install root dependencies (bun), frontend dependencies (bun), and Python deps (uv):
@@ -143,17 +143,6 @@ bun run dev:frontend  # bun run dev (Vite/React)
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See [LICENSE][license-url] for more information.
-
-&copy; IntegraTech 2026
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 [python-shield]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff
 [python-url]: https://www.python.org/
@@ -166,7 +155,11 @@ Distributed under the MIT License. See [LICENSE][license-url] for more informati
 [uv-url]: https://docs.astral.sh/uv/
 [bun-url]: https://bun.com/
 [product-screenshot]: images/screenshot.png
-[issues-shield]: https://img.shields.io/github/issues/anthonyA1214/traffic-flow-simulator?style=for-the-badge
-[issues-url]: https://github.com/anthonyA1214/traffic-flow-simulator/issues
-[license-shield]: https://img.shields.io/github/license/anthonyA1214/traffic-flow-simulator?style=for-the-badge
-[license-url]: LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/integratech-org/tala.svg?style=for-the-badge
+[contributors-url]: https://github.com/integratech-org/tala/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/integratech-org/tala.svg?style=for-the-badge
+[forks-url]: https://github.com/integratech-org/tala/network/members
+[stars-shield]: https://img.shields.io/github/stars/integratech-org/tala.svg?style=for-the-badge
+[stars-url]: https://github.com/integratech-org/tala/stargazers
+[issues-shield]: https://img.shields.io/github/issues/integratech-org/tala.svg?style=for-the-badge
+[issues-url]: https://github.com/integratech-org/tala/issues
